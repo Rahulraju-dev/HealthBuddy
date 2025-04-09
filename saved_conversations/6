@@ -1,0 +1,13 @@
+bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
+user : hi'
+bot : - Hello. How are you feeling today?
+user : i had headache
+bot : - what kind of headache do you have : 1. Migrane headache - intense throbbing pain on just one side of the head. 2. Cluster headaches - severe and recurrent headaches 3. Tension Headache - Ocassional;
+user : n
+bot : - happy to help!
+user : i got fever
+bot : - ok, is there a swelling or a physical deformity or bleeding at the aching region.
+user : fever symptoms
+bot : - great to know. how can i assist you then?
+user : give me some tablets name
+bot : - Good, now take some rest and then let me know if you are feeling better after having sudafed tablet.

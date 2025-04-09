@@ -1,0 +1,21 @@
+bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
+user : hi
+bot : - Hello. How are you feeling today?
+user : i have a fever
+bot : - Okay. can you tell me what's wrong? what are your symptoms?
+user : i have a body pains
+bot : - You should take a sudafed tablet after your meal.
+user : noo
+bot : - Thank you. How can i assist you? How are you feeling today?
+user : i have cold
+bot : - You should take a sudafed tablet after your meal.
+user : i have feaver
+bot : - Okay. can you tell me what's wrong? what are your symptoms?
+user : i have a nose iching
+bot : - Okay, this is a symptom of cold, do you have cold?
+user : yes
+bot : - Bye. Nice talking to you
+user : bye
+bot : - Bye. Nice talking to you
+user : good bye
+bot : - Bye. Nice talking to you

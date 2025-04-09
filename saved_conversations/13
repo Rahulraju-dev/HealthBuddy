@@ -1,0 +1,29 @@
+bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
+user : hi
+bot : - Hello. How are you feeling today?
+user : What are your interests
+bot : - I am interested in helping you medically!
+user : Where are you from
+bot : - I am offline. at Dwarkadas J. CAHCET as of now.
+user : I am feeling dizzy.
+bot : - This might be because you are tired, you should take some rest.
+user : my hand is aching.
+bot : - okay, did you get hurt, or it is a suddern aching.
+user : my leg is paining.
+bot : - okay, did you get hurt, or it is a suddern paining.
+user : yes there is a swelling
+bot : - okay, it is a common symptom of fracture, should I book an an appointment for you.
+user : i do not feeling well
+bot : - okay. can you tell me what's wrong? what are your symptoms?
+user : I am feeling weak.
+bot : - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
+user : No, i am still not felling better after having crocin.
+bot : - Ok, its not just a normal fever, you should consult a doctor.
+user : ok
+bot : - Good, now take some rest and then let me know if you are feeling better after having crocin.
+user : book appoinyment
+bot : - yes please state time and doctor's name in the following format; 'Patient Name: Date: Doctor: Hospital:'
+user : raju,02032025,optamalagist,varunal
+bot : - How are you feeling today?
+user : good
+bot : - I'm doing well. How are you feeling today?

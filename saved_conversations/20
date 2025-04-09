@@ -1,0 +1,25 @@
+bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
+user : ji
+bot : - Hello. How are you feeling today?
+user : hi can i see a doctor ?
+bot : - all doctors are attending patients. we shall revert to your request soon. Do you want to book an appointment?
+user : No, i am still not felling better after having sudafed tablet.
+bot : - Ok, its not just a normal cold, you should consult a doctor.
+user : x
+bot : - - my joint is aching.
+user : I am feeling dizzy.
+bot : - This might be because you are tired, you should take some rest.
+user : i have a tension headache
+bot : - symptom noted. The cause of tension headaches is unclear, but stress, anxiety, and depression are common triggers. would you like to talk to a doctor?
+user : i have a headache
+bot : - what kind of headache do you have : 1. Migrane headache - intense throbbing pain on just one side of the head. 2. Cluster headaches - severe and recurrent headaches 3. Tension Headache - Ocassional;
+user : tension headace
+bot : - symptom noted. The cause of tension headaches is unclear, but stress, anxiety, and depression are common triggers. would you like to talk to a doctor?
+user : yes i got hurt.
+bot : - ok, is there a swelling or a physical deformity or bleeding at the aching region.
+user : yes there is a swelling
+bot : - okay, it is a common symptom of fracture, should I book an an appointment for you.
+user : i have fever.
+bot : - Okay. can you tell me what's wrong? what are your symptoms?
+user : I have weakness in my body.
+bot : - This is a symptom of fever, you should take a tablet of crocin after you have your meal.

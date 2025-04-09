@@ -1,0 +1,90 @@
+- - i have a fever.
+  - From how many days do you have fever? : 1) From 1 day. 2) from 2 days. 3) From 3 days.
+- - From 1 day.
+  - what is your body tempareture?: 1.Low . 2.Medium. 3. High
+- - low
+  - Take good food and take some rest . If your fever doesn't go down after two days, I recommend seeing a doctor. It could be a sign of a viral or bacterial infection.
+- - medium
+  - Take a paracetamol tablet and take rest. If your fever doesn't go down after two days, I recommend seeing a doctor. It could be a sign of a viral or bacterial infection.
+- - High
+  - you want to consult a Doctor immediately.
+
+- - What is paracetamol? 
+  - Paracetamol is a medicine used to lower fever and relieve mild to moderate pain like headache, mild fevers, or body pains. It is safe when taken in the right amount. Do not take more than 4 tablets a day. Always take it after food to avoid stomach issues.
+- - Tell me about paracetamol
+  - Paracetamol is a common pain reliever and fever reducer. It's used for  body pain, and mild fevers.
+- - What does paracetamol do?
+  - Paracetamol is a medicine used to treat mild to moderate pain and also be used to treat fever (high temperature). It's dangerous to take more than the recommended dose of paracetamol. !!warning!Paracetamol overdose can damage your liver and cause death.
+- - uses of paracetmol
+  - Paracetamol is a medicine used to treat mild to moderate pain and also be used to treat fever (high temperature). It's dangerous to take more than the recommended dose of paracetamol. !!warning!Paracetamol overdose can damage your liver and cause death.
+
+  - From 2 days
+  - what is your body tempareture?: 1.Low . 2.Medium. 3. High
+- - low
+  - Take good food and take some rest. If your fever doesn't go down after two days, I recommend seeing a doctor. It could be a sign of a viral or bacterial infection.
+- - medium
+  - Take a paracetamol tablet and take rest. If your fever doesn't go down after two days, I recommend seeing a doctor. It could be a sign of a viral or bacterial infection.
+- - High
+  - you want to consult a Doctor immediately.
+- - From 3 days.
+  - what is your body tempareture?: 1.Low . 2.Medium. 3. High
+- - low
+  - Take good food and take some rest. If your fever doesn't go down after two days, I recommend seeing a doctor. It could be a sign of a viral or bacterial infection.
+- - medium
+  - Take a paracetamol tablet and take rest. If your fever doesn't go down after two days, I recommend seeing a doctor. It could be a sign of a viral or bacterial infection.
+- - High
+  - you want to consult a Doctor immediately.
+  
+
+- - I am not feeling well.
+  - Okay. can you tell me what's wrong? what are your symptoms?
+- - My body temperature has raised.
+  - what is your body tempareture?: 1.Low . 2.Medium. 3. High
+- - low
+  - Take good food and plenty of rest. If your fever doesn't go down after two days, I recommend seeing a doctor. It could be a sign of a viral or bacterial infection.
+- - medium
+  - Take a paracetamol tablet and take rest. If your fever doesn't go down after two days, I recommend seeing a doctor. It could be a sign of a viral or bacterial infection.
+- - High
+  - you want to consult a Doctor immediately.
+  
+  
+- - I took crocin.
+  - Good, now take some rest and then let me know if you are feeling better after having crocin.
+- - No, i am still not felling better after having crocin.
+  - Ok, its not just a normal fever, you should consult a doctor.
+- - Can u book an appointment for me.
+  - yes please state time and doctor's name in the following format; 'Patient Name:  Date:  Doctor: Hospital:'
+- - I am shivering.
+  - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
+- - Ok, i will take the crocin.
+  - let me know if you are feeling better after having crocin.
+- - I took crocin.
+  - Good, now take some rest and then let me know if you are feeling better after having crocin.
+- - No, i am still not felling better after having crocin.
+  - Ok, its not just a normal fever, you should consult a doctor.
+- - Can u book an appointment for me.
+  - yes please state time and doctor's name in the following format; 'Patient Name:  Date:  Doctor: Hospital:'
+
+- - I am feeling weak.
+  - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
+- - Ok, i will take the crocin.
+  - let me know if you are feeling better after having crocin.
+- - I took crocin.
+  - Good, now take some rest and then let me know if you are feeling better after having crocin.
+- - No, i am still not felling better after having crocin.
+  - Ok, its not just a normal fever, you should consult a doctor.
+- - Can u book an appointment for me.
+  - yes please state time and doctor's name in the following format; 'Patient Name:  Date:  Doctor: Hospital:'
+
+- - I have weakness in my body.
+  - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
+- - Ok, i will take the crocin.
+  - let me know if you are feeling better after having crocin.
+- - I took crocin.
+  - Good, now take some rest and then let me know if you are feeling better after having crocin.
+- - No, i am still not felling better after having crocin.
+  - Ok, its not just a normal fever, you should consult a doctor.
+- - Can u book an appointment for me.
+  - yes please state time and doctor's name in the following format; 'Patient Name:  Date:  Doctor: Hospital:'
+- - i have fever.
+  - Okay. can you tell me what's wrong? what are your symptoms?

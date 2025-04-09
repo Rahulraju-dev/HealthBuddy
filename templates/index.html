@@ -1,0 +1,413 @@
+<!--<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Health Buudy</h1>
+    <div>
+      <div id="chatbox">
+        <p class="botText"><span>Please try typing full sentences as I am still learning!</span></p>
+        <p class="botText"><span>I am a chatbot. You can begin conversation by typing in a message and pressing enter.</span></p>
+        <p class="botText"><span>Hi There! What is your name?</span></p>
+      </div>
+      <div id="userInput">
+        <input id="textInput" type="text" name="msg" placeholder="Say Something...">
+        <input id="buttonInput" type="submit" value="Send">
+      </div>
+      <script>
+        function getBotResponse() {
+          var rawText = $("#textInput").val();
+          var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+          $("#textInput").val("");
+          $("#chatbox").append(userHtml);
+
+          document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          $.get("/get", { msg: rawText }).done(function(data) {
+            var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+            $("#chatbox").append(botHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          });
+        }
+        $("#textInput").keypress(function(e) {
+            if(e.which == 13) {
+                getBotResponse();
+            }
+        });
+        $("#buttonInput").click(function() {
+          getBotResponse();
+        })
+      </script>
+    </div>
+  </body>
+</html>
+......................................................................
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Buddy - Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            color: #286aa7;
+        }
+        #chatbox {
+            width: 350px;
+            height: 300px;
+            overflow-y: auto;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .botText, .userText {
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px 0;
+            max-width: 80%;
+        }
+        .botText { background: #e6f7ff; text-align: left; }
+        .userText { background: #b3e0ff; text-align: right; }
+        #userInput {
+            display: flex;
+            width: 350px;
+            margin-top: 10px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background: #286aa7;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Health Buddy</h1>
+    <div id="chatbox">
+        <p class="botText"><span>Welcome! What is your name?</span></p>
+    </div>
+    <div id="userInput">
+        <input id="textInput" type="text" placeholder="Type here...">
+        <input id="buttonInput" type="submit" value="Send">
+    </div>
+    <script>
+        function getBotResponse() {
+            let userText = $("#textInput").val().trim();
+            if (!userText) return;
+            $("#textInput").val("");
+            $("#chatbox").append(`<p class='userText'><span>${userText}</span></p>`);
+            $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+            $.get("/get", { msg: userText }).done(data => {
+                $("#chatbox").append(`<p class='botText'><span>${data}</span></p>`);
+                $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+            });
+        }
+        $("#textInput").keypress(e => { if (e.which == 13) getBotResponse(); });
+        $("#buttonInput").click(getBotResponse);
+    </script>
+</body>
+</html>
+.........................222222222222222222222222222222
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthBuddy - Medical Chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: url('https://source.unsplash.com/1600x900/?medical,healthcare') no-repeat center center/cover;
+        }
+        .chat-container {
+            max-width: 400px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+        #chatbox {
+            height: 400px;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .botText, .userText {
+            max-width: 75%;
+            padding: 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin: 5px 0;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        .botText {
+            background: #e0f7fa;
+            align-self: flex-start;
+        }
+        .userText {
+            background: #1e88e5;
+            color: white;
+            align-self: flex-end;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        #userInput {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+            background: white;
+        }
+        #textInput {
+            flex-grow: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 25px;
+            outline: none;
+            font-size: 14px;
+            background: #f1f1f1;
+        }
+        #buttonInput {
+            margin-left: 10px;
+            border: none;
+            background: #1e88e5;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        #buttonInput:hover {
+            background: #1565c0;
+        }
+    </style>
+</head>
+<body class="flex justify-center items-center min-h-screen">
+    <div class="chat-container">
+        <div class="bg-blue-500 text-white text-center p-4 text-lg font-semibold">HealthBuddy: Medical Assistance</div>
+        <div id="chatbox">
+            <p class="botText"><span>👋 Hello! I'm your Health Assistant. How can I help you today?</span></p>
+        </div>
+        <div id="userInput">
+            <input id="textInput" type="text" placeholder="Type a message...">
+            <button id="buttonInput"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <script>
+        function getBotResponse() {
+            var rawText = $("#textInput").val().trim();
+            if (rawText === "") return;
+            var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+            $("#textInput").val("");
+            $("#chatbox").append(userHtml);
+            $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+            
+            setTimeout(() => {
+                var botHtml = '<p class="botText"><span>🤖 Thinking...</span></p>';
+                $("#chatbox").append(botHtml);
+                $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+                
+                setTimeout(() => {
+                    $(".botText:last").remove();
+                    $.get("/get", { msg: rawText }).done(function(data) {
+                        var botResponse = '<p class="botText"><span>' + data + '</span></p>';
+                        $("#chatbox").append(botResponse);
+                        $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+                    });
+                }, 1000);
+            }, 500);
+        }
+        
+        $("#textInput").keypress(function(e) {
+            if (e.which == 13) getBotResponse();
+        });
+        $("#buttonInput").click(function() {
+            getBotResponse();
+        });
+    </script>
+</body>
+</html>
+
+----->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthBuddy </title>
+    <link rel="icon" href="static/med4.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: url('https://source.unsplash.com/1600x900/?hospital,healthcare') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(0, 255, 128);
+            
+            
+        }
+       
+        
+        .chat-container {
+            width: 400px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            display: flex;
+            flex-direction: column;
+        }
+        .chat-header {
+            background: #1e88e5;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #chatbox {
+            height: 400px;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .botText, .userText {
+            max-width: 75%;
+            padding: 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin: 5px 0;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        .botText {
+            background: #e0f7fa;
+            align-self: flex-start;
+        }
+        .userText {
+            background: #1e88e5;
+            color: white;
+            align-self: flex-end;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        #userInput {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+            background: white;
+        }
+        #textInput {
+            flex-grow: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 25px;
+            outline: none;
+            font-size: 14px;
+            background: #f1f1f1;
+        }
+        #buttonInput {
+            margin-left: 10px;
+            border: none;
+            background: #1e88e5;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        #buttonInput:hover {
+            background: #1565c0;
+        }
+    </style>
+</head>
+<body>
+    <div style="position: absolute; top: 20px; left: 20px;">
+        <a href="{{ url_for('logout') }}" title="Logout" style="font-size: 24px; text-decoration: none; color: #240e0e;">&larr;</a>
+    </div>   
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <i class="fas fa-user-md"></i> HealthBuddy: Your Medical Assistant
+        </div>
+        <div id="chatbox">
+            <p class="botText"><span>👋 Hello! I'm your Health Assistant. How can I help you today?</span></p>
+        </div>
+        <div id="userInput">
+            <input id="textInput" type="text" placeholder="Type your symptoms...">
+            <button id="buttonInput"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <script>
+        function getBotResponse() {
+            var rawText = $("#textInput").val().trim();
+            if (rawText === "") return;
+            var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+            $("#textInput").val("");
+            $("#chatbox").append(userHtml);
+            $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+            
+            setTimeout(() => {
+                var botHtml = '<p class="botText"><span>🤖 Thinking...</span></p>';
+                $("#chatbox").append(botHtml);
+                $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+                
+                setTimeout(() => {
+                    $(".botText:last").remove();
+                    $.get("/get", { msg: rawText }).done(function(data) {
+                        var botResponse = '<p class="botText"><span>' + data + '</span></p>';
+                        $("#chatbox").append(botResponse);
+                        $("#chatbox").scrollTop($("#chatbox")[0].scrollHeight);
+                    });
+                }, 1000);
+            }, 500);
+        }
+        
+        $("#textInput").keypress(function(e) {
+            if (e.which == 13) getBotResponse();
+        });
+        $("#buttonInput").click(function() {
+            getBotResponse();
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,13 @@
+bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
+user : hi
+bot : - Hello. How are you feeling today?
+user : i need know about medicines.
+bot : - - What are your interests
+user : What is paracetamol?
+bot : - I was created in February 2019.
+user : medicines
+bot : - Take a paracetamol tablet and take rest.
+user : i have a fever
+bot : - From how many days do you have fever? : 1) From 1 day. 2) from 2 days. 3) From 3 days.
+user : what is paracetmol
+bot : - I was created in February 2019.

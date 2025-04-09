@@ -1,0 +1,13 @@
+bot : Hi There! I am a medical chatbot. You can begin conversation by speaking.
+user : hello
+bot : - Hi. How are you feeling today?
+user : hello
+bot : - Hi. How are you feeling today?
+user : I have a fever
+bot : - From how many days do you have fever? : 1) From 1 day. 2) from 2 days. 3) From 3 days.
+user : happy birthday for three days
+bot : - what is your body tempareture?: 1.Low . 2.Medium. 3. High
+user : my body temperature is high
+bot : - what is your body tempareture?: 1.Low . 2.Medium. 3. High
+user : Medium High
+bot : - Take a paracetamol tablet and take rest. If your fever doesn't go down after two days, I recommend seeing a doctor. It could be a sign of a viral or bacterial infection.
