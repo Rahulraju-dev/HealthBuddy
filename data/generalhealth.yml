@@ -1,23 +1,79 @@
-- - i feel sick
-  - okay. can you tell me what's wrong? what are your symptoms?
-- - i am sick
-  - okay. can you tell me what's wrong? what are your symptoms?
-- - i am not feeling well
-  - okay. can you tell me what's wrong? what are your symptoms?
-- - i do not feeling well
-  - okay. can you tell me what's wrong? what are your symptoms?
-- - i am not well
-  - okay. can you tell me what's wrong? what are your symptoms?
-- - i feel fine
-  - good to know. how may i assist you then?
-- - i am feeling fine
-  - good to know. how may i assist you then?
-- - i feel great
-  - good to know. how may i assist you then?
-- - i am feeling great
-  - good to know. how may i assist you then?
-- - i am great
-  - good to know. how may i assist you then?
-- - i feel awesome
-  - great to know. how can i assist you then?
+- - i feel tired
+  - Are you sleeping enough and eating well? (Please share some details.)
 
+- - yes i have good sleep and food
+  - That's great! It's important to maintain a consistent sleep routine. Try to ensure you're getting 7-8 hours of restful sleep each night. Also, make sure you're eating balanced meals and staying hydrated with plenty of water.
+
+- - no not sleeped 
+  - It sounds like you may need to adjust your routine. Here are some suggestions:Aim for 7-8 hours of sleep each night and try going to bed and waking up at the same time each day.Have a nutritious breakfast with fruits, whole grains, and proteins.Drink water regularly throughout the day as dehydration can contribute to tiredness.
+- - yes i slept well
+  - That's good to hear! Make sure you're also eating nutritious food and staying active to keep your energy levels up.
+
+- - no i did not sleep
+  - That might explain your tiredness. Try to get at least 7-8 hours of sleep each night. Avoid screens before bed, and stick to a regular sleep schedule.
+
+- - yes i ate well
+  - Great! Eating well gives your body the fuel it needs. Keep including proteins, whole grains, fruits, and vegetables in your meals.
+
+- - no i did not eat well
+  - A poor diet can affect your energy. Try to include a good breakfast, fresh fruits, vegetables, and stay hydrated throughout the day.
+
+- - i am feeling tired
+  - Are you sleeping enough and eating healthy meals? If not, I can help with some tips to improve your energy.
+
+- - yes i am not slept
+  - Lack of sleep can really make you feel exhausted. Try adjusting your sleep routine—get at least 7-8 hours of rest, and avoid caffeine or screens before bedtime.
+
+- - no i am not slept
+  - You might need to prioritize rest. A regular sleep cycle helps your body recharge. Avoid distractions at night, and aim for consistent sleep hours.
+
+- - tired all the time
+  - Are you getting enough sleep and eating balanced meals? If not, I have some tips to help.
+
+- - can you suggest me some tips to boost up my energy
+  - Sure! Here are some tips:Get 7-8 hours of sleep each night and try to avoid looking at screens before bed.Stay hydrated with water throughout the day.Start your day with a healthy breakfast that includes fruits, nuts, and whole grains.If possible, take a short walk or do light exercises to get your blood flowing.Limit your caffeine intake after midday so it doesn't affect your sleep.
+
+- - i feel sick
+  - Okay. Can you tell me what symptoms you're experiencing?
+
+- - i feel fine
+  - Glad to hear that! How may I assist you today?
+
+- - i am not feeling well
+  - I'm sorry to hear that. Can you tell me more about your symptoms?
+
+- - i feel great
+  - That's awesome! How can I assist you today?
+
+- - i feel awesome
+  - Fantastic! How can I help you today?
+
+- - how much sleep is needed?
+  - Adults usually need 7 to 9 hours of sleep every night to feel refreshed and energized.
+
+- - what food gives energy?
+  - Foods that boost energy include:Fruits like bananas, apples, and dry fruits,Nuts, eggs, and whole grains like oats and brown rice
+
+- - what are signs of vitamin deficiency?
+  - Common signs include feeling tired often, pale skin, hair fall, dizziness, or weakened immunity. A doctor can confirm this with a blood test.
+
+- - can i take multivitamins?
+  - Yes, if you're feeling weak, multivitamins like Becosules or Revital H can help. You should take one after a meal daily.
+
+- - what is revital h?
+  - Revital H is a multivitamin supplement that helps boost energy, immunity, and reduce tiredness.
+
+- - when should i see a doctor for tiredness?
+  - If you're feeling tired for more than a week despite rest, or if you also feel dizzy, breathless, or very weak, it's time to see a doctor.
+
+- - how to stay active naturally?
+  - Try walking daily, staying hydrated, avoiding too much screen time, and doing deep breathing exercises to stay energized.
+
+- - is dehydration causing tiredness?
+  - Yes, dehydration can lead to fatigue and tiredness. Aim for 7-8 glasses of water daily to stay hydrated.
+
+- - does stress make you tired?
+  - Yes, emotional stress can drain your energy. It may help to take breaks, talk to someone, or practice relaxation techniques like meditation.
+
+- - any home remedy for tiredness?
+  - You can try drinking lemon water, coconut water, or a mix of honey and warm water for a natural energy boost.

@@ -1,1 +1,15 @@
 bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
+user : hi
+bot : - Hi! How are you feeling today?
+user : i am feeling tired
+bot : - That sounds tough. Are you sleeping enough and eating well? : 1) Yes. 2) No.
+user : no
+bot : - Use steam inhalation and drink warm fluids.
+user : yes
+bot : - You can take a warm drink like ginger tea and use throat lozenges.
+user : yo
+bot : - Yo! How's it going? How are you feeling today?
+user : hi
+bot : - Hi! How are you feeling today?
+user : hey
+bot : - Hi! How are you feeling today?

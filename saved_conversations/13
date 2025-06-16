@@ -1,29 +1,35 @@
 bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
 user : hi
 bot : - Hello. How are you feeling today?
-user : What are your interests
-bot : - I am interested in helping you medically!
-user : Where are you from
-bot : - I am offline. at Dwarkadas J. CAHCET as of now.
-user : I am feeling dizzy.
-bot : - This might be because you are tired, you should take some rest.
-user : my hand is aching.
-bot : - okay, did you get hurt, or it is a suddern aching.
-user : my leg is paining.
-bot : - okay, did you get hurt, or it is a suddern paining.
-user : yes there is a swelling
-bot : - okay, it is a common symptom of fracture, should I book an an appointment for you.
-user : i do not feeling well
+user : i am not feeling well
 bot : - okay. can you tell me what's wrong? what are your symptoms?
-user : I am feeling weak.
-bot : - This is a symptom of fever, you should take a tablet of crocin after you have your meal.
-user : No, i am still not felling better after having crocin.
-bot : - Ok, its not just a normal fever, you should consult a doctor.
-user : ok
-bot : - Good, now take some rest and then let me know if you are feeling better after having crocin.
-user : book appoinyment
-bot : - yes please state time and doctor's name in the following format; 'Patient Name: Date: Doctor: Hospital:'
-user : raju,02032025,optamalagist,varunal
-bot : - How are you feeling today?
-user : good
-bot : - I'm doing well. How are you feeling today?
+user : i have a fever
+bot : - From how many days do you have fever? : 1) From 1 day. 2) from 2 days. 3) From 3 days.
+user : from 11 days
+bot : - what is your body tempareture?: 1.Low . 2.Medium. 3. High
+user : high
+bot : - you want to consult a Doctor immediately.
+user : i have diarrhea
+bot : - How many times have you had loose motion today? : 1) Less than 3. 2) More than 3. 3) Lost count.
+user : less than 3
+bot : - It may be mild. Drink Oral Rehydration Solution (ORS) and eat light food like rice or bananas.
+user : i have a skin allergy
+bot : - Do you have itching or rash? : 1) Itching. 2) Rash. 3) Both.
+user : i feel dehydrated
+bot : - What symptoms are you experiencing? : 1) Dry mouth. 2) Dizziness. 3) Dark urine. 4) Tiredness.
+user : dry mouth
+bot : - Dry mouth is a common sign of dehydration. Drink plenty of water or oral rehydration solution (ORS).
+user : what is ORS
+bot : - ORS is a powder mixed in water. It replaces lost fluids in diarrhea or vomiting. Sip it slowly throughout the day.
+user : i have a headache
+bot : - what kind of headache do you have : 1. Migrane headache - intense throbbing pain on just one side of the head. 2. Cluster headaches - severe and recurrent headaches 3. Tension Headache - Ocassional;
+user : front of head
+bot : - It could be due to stress or screen time. Take rest and avoid bright lights.
+user : i have a tension headache
+bot : - symptom noted. The cause of tension headaches is unclear, but stress, anxiety, and depression are common triggers. would you like to talk to a doctor?
+user : i have back pain
+bot : - Where is the pain mostly located? : 1) Lower back. 2) Middle back. 3) Upper back.
+user : middle back
+bot : - Avoid lifting heavy items. Maintain correct sitting posture and rest,If the pain lasts more than a week or you feel numbness or tingling in your legs.Immediately consult a doctor.
+user : i have mouth ulsers
+bot : - Is your cough dry or with mucus? : 1) Dry cough. 2)mucus.

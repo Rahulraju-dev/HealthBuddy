@@ -16,11 +16,35 @@
   - okay, it is a common symptom of fracture, should I book an an appointment for you.
 - - yes i want to book an appointment.
   - yes please state time and doctor's name in the following format; 'Patient Name:  Date:  Doctor: Hospital:'
-- - my hand is paining.
-  - okay, did you get hurt, or it is a sudden paining.
-- - my leg is paining.
-  - okay, did you get hurt, or it is a sudden paining.
-- - my joint is paining.
-  - okay, did you get hurt, or it is a sudden paining.
-- - yes i got hurt.
-  
+
+- - hand pain
+  - I'm sorry to hear that. Did you get hurt recently or is the pain sudden?
+- - my hand is hurting
+  - Oh no, is it due to an injury or did it just start hurting on its own?
+- - pain in my hand
+  - Okay, could you tell me if there's swelling, any visible injury, or if it's just a dull ache?
+- - i'm suffering from hand pain
+  - That sounds uncomfortable. Can you describe the pain? Is it sharp, throbbing, or mild?
+- - my leg is hurting
+  - I'm sorry to hear that. Did you injure your leg or has the pain come up suddenly?
+- - pain in my leg
+  - I understand. Is there any swelling, redness, or difficulty moving your leg?
+- - leg pain is troubling me
+  - That must be tough. Did you fall or hit your leg somewhere recently?
+- - i have a leg pain
+  - Alright. Is the pain constant or does it increase when you move?
+- - yes, i got hurt
+  - Thank you for sharing. Is there swelling, a physical deformity, or any bleeding?
+- - no swelling but it hurts a lot
+  - Understood. You might have a sprain or strain. I recommend rest and applying an ice pack for now.
+- - yes, there is swelling
+  - This could indicate a sprain or even a fracture. Do you want me to help you book a doctor’s appointment?
+- - yes, bleeding is there
+  - That sounds serious. You should visit a nearby hospital as soon as possible. Do you want me to find one for you?
+- - it's a mild pain
+  - Alright. Try resting it, avoid putting stress on it, and apply a cold compress. Let me know if it doesn't improve.
+- - yes, please book an appointment
+  - yes please state time and doctor's name in the following format; 'Patient Name:  Date:  Doctor: Hospital:'
+
+- - i'm okay now, thanks
+  - I'm glad to hear that. Take care and feel free to reach out if you need anything else!

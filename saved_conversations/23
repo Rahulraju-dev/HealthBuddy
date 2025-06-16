@@ -1,1 +1,19 @@
 bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
+user : hi
+bot : - Hi! How are you feeling today?
+user : i am feeling tired
+bot : - Are you sleeping enough and eating healthy meals? If not, I can help with some tips to improve your energy.
+user : yes i have good sleep and food
+bot : - That's great! It's important to maintain a consistent sleep routine. Try to ensure you're getting 7-8 hours of restful sleep each night. Also, make sure you're eating balanced meals and staying hydrated with plenty of water.
+user : no not sleeped
+bot : - It sounds like you may need to adjust your routine. Here are some suggestions:Aim for 7-8 hours of sleep each night and try going to bed and waking up at the same time each day.Have a nutritious breakfast with fruits, whole grains, and proteins.Drink water regularly throughout the day as dehydration can contribute to tiredness.
+user : i am not feeling well
+bot : - I'm sorry to hear that. Can you tell me more about your symptoms?
+user : i ahve fevr
+bot : - Okay. can you tell me what's wrong? what are your symptoms?
+user : i have a fever
+bot : - From how many days do you have fever? : 1) From 1 day. 2) from 2 days. 3) From 3 days.
+user : from 1 day
+bot : - what is your body tempareture?: 1.Low . 2.Medium. 3. High
+user : high
+bot : - you want to consult a Doctor immediately.

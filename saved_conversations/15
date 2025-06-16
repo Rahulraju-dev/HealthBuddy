@@ -1,1 +1,14 @@
-bot : Hi There! I am a medical chatbot. Start your conversation now.
+user : iam suffering from leg pain
+bot : - good to know. how may i assist you then?
+user : rahull is waste fellow is it corect
+bot : - Yes, steam inhalation is very effective, especially for cough with mucus. Try it 2 times a day.
+user : how to sleep better with cough.
+bot : - Use an extra pillow to keep your head raised. It helps prevent nighttime coughing.
+user : hi
+bot : - Hello. How are you feeling today?
+user : gy
+bot : - You can take a warm drink like ginger tea and use throat lozenges.
+user : gu
+bot : - you want to consult a Doctor immediately.
+user : hi
+bot : - Hello. How are you feeling today?

@@ -1,1 +1,17 @@
 bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
+user : hi
+bot : - Hi! How are you feeling today?
+user : i have a fever
+bot : - From how many days do you have fever? : 1) From 1 day. 2) from 2 days. 3) From 3 days.
+user : from 1 day
+bot : - what is your body tempareture?: 1.Low . 2.Medium. 3. High
+user : medium
+bot : - Take a paracetamol tablet and take rest. If your fever doesn't go down after two days, I recommend seeing a doctor. It could be a sign of a viral or bacterial infection.
+user : hi
+bot : - Hi! How are you feeling today?
+user : what tablet can i use for fever
+bot : - You can use lubricating eye drops or anti-allergy drops like olopatadine.
+user : fever tablet
+bot : - Are you sleeping enough and eating well? (Please share some details.)
+user : headace tablet
+bot : - Paracetamol is a medicine used to lower fever and relieve mild to moderate pain like headache, mild fevers, or body pains. It is safe when taken in the right amount. Do not take more than 4 tablets a day. Always take it after food to avoid stomach issues.

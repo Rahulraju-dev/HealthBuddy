@@ -1,50 +1,107 @@
-- - hi there
-  - hi. How are you feeling today?
-- - Hello
-  - Hi. How are you feeling today?
-- - Hi
-  - Hello. How are you feeling today?
-- - Greetings!
-  - Hello. How are you feeling today?
-- - Hello
-  - Namaste! How are you feeling today?
-  - How are you feeling today?
-- - Hi, How is it going?
-  - The app is working great! How are you feeling today?
-- - Hi, How are you feeling today?
-  - I'm feeling fine. How are you feeling today?
-- - Hi, How is it going?
-  - It's a little busy today. How are you feeling?
-- - Nice to meet you.
-  - Thank you. How can i assist you? How are you feeling today?
-- - How do you do?
-  - I'm doing well. How are you feeling today?
-- - How do you do?
-  - I'm doing well. How are you feeling today?
-- - Hi, nice to meet you.
-  - Thank you. You too. How are you feeling today?
-- - It is a pleasure to meet you.
-  - Thank you. You too. How are you feeling today?
-- - Top of the morning to you!
-  - Thank you kindly. How are you feeling today?
-- - Top of the morning to you!
-  - And the rest of the day to you. How are you feeling today?
-- - What's up?
-  - Not much. How are you feeling today?
-- - What's up?
-  - Not too much. How are you feeling today?
-- - What's up? 
-  - Not much, how about you? How are you feeling today?
-- - What's up?
-  - Nothing much. How are you feeling today?
-- - What's up?
-  - The sky's up but I'm fine thanks. What about you? How are you feeling today?
-- - bye
-  - Bye. Nice talking to you
-- - Bye bye
-  - bye. thanks for using our service
-- - thanks for helping me out
-  - you're most welcome
-- - thanks
-  - always welcome
+- - hi
+  - Hi! How are you feeling today?
 
+- - hey
+  - Hi! How are you feeling today?
+
+- - whats up
+  - Not much, how about you? How are you feeling today?
+
+- - how's it going
+  - It's going great! How about you? How are you feeling today?
+
+- - good morning
+  - Good morning! How are you feeling today?
+
+- - howdy
+  - Howdy! How are you doing today?
+
+- - yo
+  - Yo! How's it going? How are you feeling today?
+
+- - hi there
+  - Hi there! How are you feeling today?
+
+- - what's good
+  - Not much! What's good with you? How are you feeling today?
+
+- - what's up, doc
+  - Not much, but I'm here for you! How are you feeling today?
+
+- - how's life
+  - Life's good! How about you? How are you doing today?
+
+- - how do you do
+  - I'm doing well, thank you. How about you? How are you feeling today?
+
+- - greetings
+  - Greetings! How are you feeling today?
+
+- - good day
+  - Good day! How are you feeling today?
+
+- - it's a pleasure to meet you
+  - It's a pleasure to meet you too! How are you feeling today?
+
+- - hi, nice to meet you
+  - Thank you! You too. How are you feeling today?
+
+- - top of the morning to you
+  - Thank you kindly. How are you feeling today?
+
+- - whassup
+  - Not much! How are you feeling today?
+
+- - bye
+  - Goodbye! Take care!
+
+- - catch you later
+  - Catch you later! Have a great day!
+
+- - goodbye
+  - Goodbye! Take care, stay healthy!
+
+- - see ya
+  - See you next time! Bye!
+
+- - take care
+  - Take care! See you soon!
+
+- - thanks for helping
+  - You're most welcome!
+
+- - thanks
+  - Always welcome!
+
+- - thx
+  - You're welcome!
+
+- - thanx
+  - Always welcome!
+
+- - tnks
+  - You're welcome!
+
+- - I'm confused
+  - Don't worry, I'm here to help! How are you feeling today?
+
+- - what should I do
+  - I can assist you! What's bothering you? How are you feeling?
+
+- - help
+  - I'm here for you! How can I help? How are you feeling today?
+
+- - are you a doctor
+  - I'm a health assistant, ready to help! How are you feeling today?
+
+- - do you know about health
+  - I do! I'm here to help with health-related questions. How are you feeling today?
+
+- - thank you
+  - You're most welcome! Have a great day!
+
+- - thank you for your suggestions
+  - I'm glad you found the suggestions helpful! Have a great day!
+
+- - thanks for your suggestions
+  - You're very welcome! Take care and have a great day!
